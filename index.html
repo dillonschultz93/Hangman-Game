@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman Game</title>
+
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/skeleton.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <!--JavaScript-->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+    <div class="heading-container">
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <h1 class="title">Typophile</h1>
+                    <hr>
+                    <h4 class="subtitle">Do you know your typefaces?</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+           <div class="twelve columns">
+               <p class="basic-paragraph">Press any key to begin</p>
+           </div>
+        </div>
+        <div class="row">
+           <div class="six columns">
+                <p class="basic-paragraph">Current Word: </p>
+                <p class="basic-paragraph" id="current-word"></p>
+                <hr>
+           </div>
+           <div class="six columns">
+               <p class="basic-paragraph">Letters Already Guessed: </p>
+               <p class="basic-paragraph" id="letters-guessed"></p>
+               <hr>
+           </div>
+        </div>
+        <div class="row">
+           <div class="twelve columns">
+               <p class="basic-paragraph">Guesses-Remaining: <span id="number-of-guesses"></span></p>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
