@@ -1,0 +1,26 @@
+.heading-container {
+    background-color: #cacaca;
+}
+
+.title {
+    font-family: 'Raleway', Helvetica Neue, Arial, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 7em;
+    color: #fff;
+    padding: 20px;
+}
+
+.subtitle {
+    font-family: 'Raleway', Helvetica Neue, Arial, sans-serif;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2em;
+    color: #919191;
+    padding-bottom: 30px;
+}
+
+.basic-paragraph {
+    font-family: 'Raleway', Helvetica Neue, Arial, sans-serif;
+    text-align: center;
+}
