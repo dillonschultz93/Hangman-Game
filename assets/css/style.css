@@ -1,5 +1,6 @@
 .heading-container {
-    background-color: #cacaca;
+    background-image: url(../images/letter-press.jpg);
+    background-size: cover;
 }
 
 .title {
@@ -16,7 +17,7 @@
     text-align: center;
     font-weight: 200;
     font-size: 2em;
-    color: #919191;
+    color: #fff;
     padding-bottom: 30px;
 }
 
@@ -30,4 +31,10 @@
 .start-game {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+@media (max-width: 500px) {
+    .title {
+        font-size: 5em;
+    }
 }
