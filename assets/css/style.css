@@ -23,4 +23,11 @@
 .basic-paragraph {
     font-family: 'Raleway', Helvetica Neue, Arial, sans-serif;
     text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+.start-game {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
