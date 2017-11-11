@@ -72,6 +72,10 @@ $(document).ready(function(){
                 //...then alert them with a win statement
                 alert("You win!");
                 //*NOTE: ^ I couldn't figure out how to display this after the user pressed the winning key...
+                confirm("Do you want to play again?");
+                if (confirm) {
+                    location.reload();
+                }
             }
         // ...else display the incorrect guess and decrease the remaining guesses by one
         } else {
@@ -89,11 +93,14 @@ $(document).ready(function(){
             if (guessesRemaining === 0) {
                 //...then alert them that they lost
                 alert("Better Luck Next Time!");
+                confirm("Do you want to play again?");
+                if (confirm) {
+                    location.reload();
+                }
             }
         }
 
     };
-
     //Display start message
     startUp();
     //Display the underscores and answers
@@ -102,4 +109,9 @@ $(document).ready(function(){
     displayWrongGuess.innerHTML = wrongAnswer;
     //Display the score
     displayScore.innerHTML = guessesRemaining;
+
+    /* == NOTES ======================================================
+    I ran out of time to figure out a proper reset function...so I just used location.reload(). I know that is definetley not efficient to use that, but it's the hackiest thing I could come up with at the last moment :P
+    ==================================================================
+    */
 });
